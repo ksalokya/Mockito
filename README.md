@@ -227,3 +227,18 @@ public class Hamcrest_matcher {
 
 }
 ```
+
+## Annotations
+```js
+	@Rule
+	public MockitoRule mockitoRule = MockitoJUnit.rule();
+	
+	@Mock
+	TodoService todoServiceMock;
+	
+	@InjectMocks
+	TodoBusinessImpl todoBusinessImpl;
+	
+	@Captor
+	ArgumentCaptor<String> stringArgumentCaptor;
+```
